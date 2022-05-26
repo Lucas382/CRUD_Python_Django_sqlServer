@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CRUD com python</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body>
+    <div class="col-8 m-auto pt-2 pb-2 text-center">
+        <h1>Crud com python</h1>
+    </div>
+    <div class="col-8 m-auto pt-3 pb-2 text-center">
+        <a href="/form" class="btn btn-success">Adicionar</a>
+    </div>
+    <div class="col-8 m-auto pt-3 pb-2 text-center">
+      <form method="get">
+        <input type="text" id="search" name="search" class="form-control" placeholder="Buscar...">
+
+      </form>
+    </div>
+    <div class="col-8 m-auto pt-2 pb-2">
+        <table class="table table-dark">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Email</th>
+              <th scope="col">SafetyMail_Status</th>
+              <th scope="col">format_valid</th>
+              <th scope="col">mx_found</th>
+              <th scope="col">smtp_check</th>
+              <th scope="col">score</th>
+              <th scope="col">is_valid</th>
+              <th scope="col">messef</th>
+              <th scope="col">Ações</th>
+            </tr>
+          </thead>
+          <tbody>
+          {%for dbs in db%}
+            <tr>
+              <th>{{dbs.id}}</th>
+              <td>{{dbs.email}}</td>
+              <td>{{dbs.safetyMail_Status}}.</td>
+              <td>{{dbs.format_valid}}</td>
+              <td>{{dbs.mx_found}}</td>
+              <td>{{dbs.smtp_check}}</td>
+              <td>{{dbs.score}}</td>
+              <td>{{dbs.is_valid}}</td>
+              <td>{{dbs.messef}}</td>
+              <td>
+                <a href="/view/{{dbs.id}}/" class="btn btn-secondary">Detalhes</a>
+                <a href="/edit/{{dbs.id}}/" class="btn btn-primary">Editar</a>
+                <a href="/delete/{{dbs.id}}/" class="btn btn-danger btnDel">Deletar</a>
+              </td>
+            </tr>
+          {% endfor %}
+          </tbody>
+        </table>
+    </div>
+
+<!--    <div class="pagination col-1 m-auto pt-2 pb-2 text-center" >-->
+<!--      {% if db.has_previous %}-->
+<!--        <a href="?page={{db.previous_page_number}}" class="btn btn-primary"> << </a>-->
+<!--      {% endif %}-->
+
+<!--      {{db.number}}-->
+
+<!--      {% if db.has_next %}-->
+<!--        <a href="?page={{db.next_page_number}}" class="btn btn-primary"> >> </a>-->
+<!--      {% endif %}-->
+<!--    </div>-->
+
+    {% load static %}
+    <script src="{% static 'javascript.js' %}"></script>
+</body>
+</html>

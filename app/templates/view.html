@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulário</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body>
+    <div class="col-8 m-auto pt-2 pb-2 text-center">
+        <h1>Detalhes</h1>
+    </div>
+    <div class="col-8 m-auto pt-3 pb-2 text-center">
+        <a href="/" class="btn btn-info">Voltar</a>
+    </div>
+    <div class="col-8 m-auto pt-4 pb-2 text-center">
+        <strong>Email: </strong>{{db.email}} <br>
+        <strong>SafetyMail_Status: </strong>{{db.safetyMail_Status}} <br>
+        <strong>Format_valid: </strong>{{db.format_valid}} <br>
+        <strong>Mx_found: </strong>{{db.mx_found}} <br>
+        <strong>Smtp_check: </strong>{{db.smtp_check}} <br>
+        <strong>Score: </strong>{{db.score}} <br>
+        <strong>Is_valid: </strong>{{db.is_valid}} <br>
+        <strong>Messef: </strong>{{db.messef}} <br>
+    </div>
+</body>
+</html>
