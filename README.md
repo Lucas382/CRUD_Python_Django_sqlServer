@@ -1,2 +1,2 @@
 # CRUD_Python_Django_sqlServer
-simple crud 
+Simple Python CRUD using Django and Sql Server 
