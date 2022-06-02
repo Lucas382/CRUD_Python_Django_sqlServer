@@ -8,15 +8,16 @@ from django.core.paginator import Paginator
 def home(request):
     data = {}
     search = request.GET.get('search')
+
     if search:
         data['db'] = Emails.objects.filter(email__icontains=search)
+        return render(request, 'index.html', data)
     else:
-        data['db'] = Emails.objects.all()
-    # all = Emails.objects.all()
-    # paginator = Paginator(all, 10)
-    # pages = request.GET.get('page')
-    # data['db'] = paginator.get_page(pages)
-    return render(request, 'index.html', data)
+        all = Emails.objects.all()
+        paginator = Paginator(all, 5)
+        pages = request.GET.get('page')
+        data['db'] = paginator.get_page(pages)
+        return render(request, 'index.html', data)
 
 def form(request):
     data = {}

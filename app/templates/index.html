@@ -60,17 +60,17 @@
         </table>
     </div>
 
-<!--    <div class="pagination col-1 m-auto pt-2 pb-2 text-center" >-->
-<!--      {% if db.has_previous %}-->
-<!--        <a href="?page={{db.previous_page_number}}" class="btn btn-primary"> << </a>-->
-<!--      {% endif %}-->
+    <div class="pagination col-1 m-auto pt-2 pb-2 text-center" >
+      {% if db.has_previous %}
+        <a href="?page={{db.previous_page_number}}" class="btn btn-primary"> << </a>
+      {% endif %}
 
-<!--      {{db.number}}-->
+      {{db.number}}
 
-<!--      {% if db.has_next %}-->
-<!--        <a href="?page={{db.next_page_number}}" class="btn btn-primary"> >> </a>-->
-<!--      {% endif %}-->
-<!--    </div>-->
+      {% if db.has_next %}
+        <a href="?page={{db.next_page_number}}" class="btn btn-primary"> >> </a>
+      {% endif %}
+    </div>
 
     {% load static %}
     <script src="{% static 'javascript.js' %}"></script>
