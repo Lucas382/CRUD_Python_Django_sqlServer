@@ -19,6 +19,7 @@ def home(request):
         data['db'] = paginator.get_page(pages)
         return render(request, 'index.html', data)
 
+
 def form(request):
     data = {}
     data['form'] = EmailsForm()

@@ -1,0 +1,395 @@
+{"EmailDetails":{
+    "Emails":[
+            {
+                "Email": "huehue@mailinator.com",
+                "SafetyMail_Status": "DESCARTAVEL",
+                "format_valid": "true",
+                "mx_found": "true",
+                "smtp_check": "true",
+                "score": "0.48",
+                "is_valid": "1",
+                "messef": "E-mail is valid"
+            },
+            {
+                "Email": "huehue@teste.com",
+                "SafetyMail_Status": "DOMINIO_INVALIDO",
+                "format_valid": "true",
+                "mx_found": "true",
+                "smtp_check": "true",
+                "score": "0.96",
+                "is_valid": "1",
+                "messef": "E-mail is valid"
+            },
+            {
+                "Email": "siacwichwue@siacwichwue.com",
+                "SafetyMail_Status": "DOMINIO_INVALIDO",
+                "format_valid": "true",
+                "mx_found": "false",
+                "smtp_check": "false",
+                "score": "0.8",
+                "is_valid": "0",
+                "messef": "Domain has no MX"
+            },
+            {
+                "Email": "acrepedrofbdjdb@gmail.com",
+                "SafetyMail_Status": "INVALIDO",
+                "format_valid": "true",
+                "mx_found": "true",
+                "smtp_check": "false",
+                "score": "0.64",
+                "is_valid": "0",
+                "messef": "E-mail is invalid"
+            },
+            {
+                "Email": "companyhomeoffice@gmail.com",
+                "SafetyMail_Status": "INVALIDO",
+                "format_valid": "true",
+                "mx_found": "true",
+                "smtp_check": "false",
+                "score": "0.64",
+                "is_valid": "0",
+                "messef": "E-mail is invalid"
+            },
+            {
+                "Email": "leonardohomeoffice000@gmail.com",
+                "SafetyMail_Status": "INVALIDO",
+                "format_valid": "true",
+                "mx_found": "true",
+                "smtp_check": "false",
+                "score": "0.64",
+                "is_valid": "0",
+                "messef": "E-mail is invalid"
+            },
+            {
+                "Email": "liraaugus17@gmail.com",
+                "SafetyMail_Status": "INVALIDO",
+                "format_valid": "true",
+                "mx_found": "true",
+                "smtp_check": "false",
+                "score": "0.64",
+                "is_valid": "0",
+                "messef": "E-mail is invalid"
+            },
+            {
+                "Email": "sdhfsdcsiucsciua7qcdbi@gmail.com",
+                "SafetyMail_Status": "INVALIDO",
+                "format_valid": "true",
+                "mx_found": "true",
+                "smtp_check": "false",
+                "score": "0.64",
+                "is_valid": "0",
+                "messef": "E-mail is invalid"
+            },
+            {
+                "Email": "acrepedro58@gmail.com",
+                "SafetyMail_Status": "VALIDO",
+                "format_valid": "true",
+                "mx_found": "true",
+                "smtp_check": "true",
+                "score": "0.8",
+                "is_valid": "1",
+                "messef": "E-mail is valid"
+            },
+            {
+                "Email": "admorthocleanhomeoffice@gmail.com",
+                "SafetyMail_Status": "VALIDO",
+                "format_valid": "true",
+                "mx_found": "true",
+                "smtp_check": "true",
+                "score": "0.8",
+                "is_valid": "1",
+                "messef": "E-mail is valid"
+            },
+            {
+                "Email": "amandaribeiiro73@gmail.com",
+                "SafetyMail_Status": "VALIDO",
+                "format_valid": "true",
+                "mx_found": "true",
+                "smtp_check": "true",
+                "score": "0.8",
+                "is_valid": "1",
+                "messef": "E-mail is valid"
+            },
+            {
+                "Email": "augusto17@gmail.com",
+                "SafetyMail_Status": "VALIDO",
+                "format_valid": "true",
+                "mx_found": "true",
+                "smtp_check": "true",
+                "score": "0.8",
+                "is_valid": "1",
+                "messef": "E-mail is valid"
+            },
+            {
+                "Email": "breno.henrique_n@hotmail.com",
+                "SafetyMail_Status": "VALIDO",
+                "format_valid": "true",
+                "mx_found": "true",
+                "smtp_check": "false",
+                "score": "0.64",
+                "is_valid": "1",
+                "messef": "User exists"
+            },
+            {
+                "Email": "brunosilvailva@gmail.com",
+                "SafetyMail_Status": "VALIDO",
+                "format_valid": "true",
+                "mx_found": "true",
+                "smtp_check": "true",
+                "score": "0.8",
+                "is_valid": "1",
+                "messef": "E-mail is valid"
+            },
+            {
+                "Email": "carolsilva@gmail.com",
+                "SafetyMail_Status": "VALIDO",
+                "format_valid": "true",
+                "mx_found": "true",
+                "smtp_check": "true",
+                "score": "0.8",
+                "is_valid": "1",
+                "messef": "E-mail known as valid"
+            },
+            {
+                "Email": "celioanizio40@gmail.com",
+                "SafetyMail_Status": "VALIDO",
+                "format_valid": "true",
+                "mx_found": "true",
+                "smtp_check": "true",
+                "score": "0.8",
+                "is_valid": "1",
+                "messef": "E-mail known as valid"
+            },
+            {
+                "Email": "danielesilva123@gmail.com",
+                "SafetyMail_Status": "VALIDO",
+                "format_valid": "true",
+                "mx_found": "true",
+                "smtp_check": "true",
+                "score": "0.8",
+                "is_valid": "1",
+                "messef": "E-mail is valid"
+            },
+            {
+                "Email": "danielli_trabalho@outlook.com",
+                "SafetyMail_Status": "VALIDO",
+                "format_valid": "true",
+                "mx_found": "true",
+                "smtp_check": "true",
+                "score": "0.8",
+                "is_valid": "1",
+                "messef": "User exist"
+            },
+            {
+                "Email": "digitadortrabalheconosco@outlook.com",
+                "SafetyMail_Status": "VALIDO",
+                "format_valid": "true",
+                "mx_found": "true",
+                "smtp_check": "true",
+                "score": "0.8",
+                "is_valid": "1",
+                "messef": "User exist"
+            },
+            {
+                "Email": "elo190exempli.com@gmail.com",
+                "SafetyMail_Status": "VALIDO",
+                "format_valid": "true",
+                "mx_found": "true",
+                "smtp_check": "true",
+                "score": "0.8",
+                "is_valid": "1",
+                "messef": "E-mail is valid"
+            },
+            {
+                "Email": "gabrielelivia@outlook.com",
+                "SafetyMail_Status": "VALIDO",
+                "format_valid": "true",
+                "mx_found": "true",
+                "smtp_check": "true",
+                "score": "0.8",
+                "is_valid": "1",
+                "messef": "User exists"
+            },
+            {
+                "Email": "giovannagomes171145@gmail.com",
+                "SafetyMail_Status": "VALIDO",
+                "format_valid": "true",
+                "mx_found": "true",
+                "smtp_check": "true",
+                "score": "0.8",
+                "is_valid": "1",
+                "messef": "E-mail is valid"
+            },
+            {
+                "Email": "gleidson.deli@gmail.com",
+                "SafetyMail_Status": "VALIDO",
+                "format_valid": "true",
+                "mx_found": "true",
+                "smtp_check": "true",
+                "score": "0.8",
+                "is_valid": "1",
+                "messef": "E-mail is valid"
+            },
+            {
+                "Email": "homeofficegerencial@gmail.com",
+                "SafetyMail_Status": "VALIDO",
+                "format_valid": "true",
+                "mx_found": "true",
+                "smtp_check": "true",
+                "score": "0.8",
+                "is_valid": "1",
+                "messef": "E-mail is valid"
+            },
+            {
+                "Email": "homeoffice.trabalhodigital20@gmail.com",
+                "SafetyMail_Status": "VALIDO",
+                "format_valid": "true",
+                "mx_found": "true",
+                "smtp_check": "true",
+                "score": "0.8",
+                "is_valid": "1",
+                "messef": "E-mail is valid"
+            },
+            {
+                "Email": "juniorjisnj@live.com",
+                "SafetyMail_Status": "VALIDO",
+                "format_valid": "true",
+                "mx_found": "true",
+                "smtp_check": "true",
+                "score": "0.8",
+                "is_valid": "1",
+                "messef": "User exists"
+            },
+            {
+                "Email": "larissaalve1997@gmail.com",
+                "SafetyMail_Status": "VALIDO",
+                "format_valid": "true",
+                "mx_found": "true",
+                "smtp_check": "true",
+                "score": "0.8",
+                "is_valid": "1",
+                "messef": "E-mail is valid"
+            },
+            {
+                "Email": "larissaalvez456@gmail.com",
+                "SafetyMail_Status": "VALIDO",
+                "format_valid": "true",
+                "mx_found": "true",
+                "smtp_check": "true",
+                "score": "0.8",
+                "is_valid": "1",
+                "messef": "E-mail is valid"
+            },
+            {
+                "Email": "mateuscostaxp@gmail.com",
+                "SafetyMail_Status": "VALIDO",
+                "format_valid": "true",
+                "mx_found": "true",
+                "smtp_check": "true",
+                "score": "0.8",
+                "is_valid": "1",
+                "messef": "E-mail is valid"
+            },
+            {
+                "Email": "nicolassoffi@bne-empregos.com.br",
+                "SafetyMail_Status": "VALIDO",
+                "format_valid": "true",
+                "mx_found": "true",
+                "smtp_check": "true",
+                "score": "0.48",
+                "is_valid": "1",
+                "messef": "E-mail known as valid"
+            },
+            {
+                "Email": "nisoffi@gmail.com",
+                "SafetyMail_Status": "VALIDO",
+                "format_valid": "true",
+                "mx_found": "true",
+                "smtp_check": "true",
+                "score": "0.8",
+                "is_valid": "1",
+                "messef": "E-mail known as valid"
+            },
+            {
+                "Email": "nisoffi@hotmail.com",
+                "SafetyMail_Status": "VALIDO",
+                "format_valid": "true",
+                "mx_found": "true",
+                "smtp_check": "true",
+                "score": "0.8",
+                "is_valid": "1",
+                "messef": "User exists"
+            },
+            {
+                "Email": "rosangela.gjacinto1972@gmail.com",
+                "SafetyMail_Status": "VALIDO",
+                "format_valid": "true",
+                "mx_found": "true",
+                "smtp_check": "true",
+                "score": "0.8",
+                "is_valid": "1",
+                "messef": "E-mail is valid"
+            },
+            {
+                "Email": "selecionadora.88@gmail.com",
+                "SafetyMail_Status": "VALIDO",
+                "format_valid": "true",
+                "mx_found": "true",
+                "smtp_check": "true",
+                "score": "0.8",
+                "is_valid": "1",
+                "messef": "E-mail is valid"
+            },
+            {
+                "Email": "tatahope.01@gmail.com",
+                "SafetyMail_Status": "VALIDO",
+                "format_valid": "true",
+                "mx_found": "true",
+                "smtp_check": "true",
+                "score": "0.8",
+                "is_valid": "1",
+                "messef": "E-mail is valid"
+            },
+            {
+                "Email": "vanessasilva@gmail.com",
+                "SafetyMail_Status": "VALIDO",
+                "format_valid": "true",
+                "mx_found": "true",
+                "smtp_check": "true",
+                "score": "0.8",
+                "is_valid": "1",
+                "messef": "E-mail known as valid"
+            },
+            {
+                "Email": "victorleo@gmail.com",
+                "SafetyMail_Status": "VALIDO",
+                "format_valid": "true",
+                "mx_found": "true",
+                "smtp_check": "true",
+                "score": "0.8",
+                "is_valid": "1",
+                "messef": "E-mail known as valid"
+            },
+            {
+                "Email": "vitoria.oliveira9291@gmail.com",
+                "SafetyMail_Status": "VALIDO",
+                "format_valid": "true",
+                "mx_found": "true",
+                "smtp_check": "true",
+                "score": "0.8",
+                "is_valid": "1",
+                "messef": "E-mail is valid"
+            },
+            {
+                "Email": "weverson.correa00@gmail.com",
+                "SafetyMail_Status": "VALIDO",
+                "format_valid": "true",
+                "mx_found": "true",
+                "smtp_check": "true",
+                "score": "0.8",
+                "is_valid": "1",
+                "messef": "E-mail is valid"
+            }
+        ]
+    }
+}
